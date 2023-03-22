@@ -1,0 +1,865 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "mbta train",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "NextTrainArrivalIntent",
+          "slots": [
+            {
+              "name": "Direction",
+              "type": "Direction"
+            },
+            {
+              "name": "stationname",
+              "type": "stationname"
+            }
+          ],
+          "samples": [
+            "{Direction} {stationname}",
+            "{stationname} {Direction}",
+            "{Direction}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "westbound"
+              }
+            },
+            {
+              "name": {
+                "value": "eastbound"
+              }
+            }
+          ],
+          "name": "Direction"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "brookline hills"
+              }
+            },
+            {
+              "name": {
+                "value": "dean road"
+              }
+            },
+            {
+              "name": {
+                "value": "griggs street"
+              }
+            },
+            {
+              "name": {
+                "value": "harvard avenue"
+              }
+            },
+            {
+              "name": {
+                "value": "beaconsfield"
+              }
+            },
+            {
+              "name": {
+                "value": "symphony"
+              }
+            },
+            {
+              "name": {
+                "value": "kenmore"
+              }
+            },
+            {
+              "name": {
+                "value": "northeastern university"
+              }
+            },
+            {
+              "name": {
+                "value": "dean road"
+              }
+            },
+            {
+              "name": {
+                "value": "newton highlands"
+              }
+            },
+            {
+              "name": {
+                "value": "museum of fine arts"
+              }
+            },
+            {
+              "name": {
+                "value": "brigham circle"
+              }
+            },
+            {
+              "name": {
+                "value": "haymarket"
+              }
+            },
+            {
+              "name": {
+                "value": "symphony"
+              }
+            },
+            {
+              "name": {
+                "value": "brookline village"
+              }
+            },
+            {
+              "name": {
+                "value": "ball square"
+              }
+            },
+            {
+              "name": {
+                "value": "fenway"
+              }
+            },
+            {
+              "name": {
+                "value": "brandon hall"
+              }
+            },
+            {
+              "name": {
+                "value": "park street"
+              }
+            },
+            {
+              "name": {
+                "value": "kent street"
+              }
+            },
+            {
+              "name": {
+                "value": "museum of fine arts"
+              }
+            },
+            {
+              "name": {
+                "value": "brigham circle"
+              }
+            },
+            {
+              "name": {
+                "value": "kenmore"
+              }
+            },
+            {
+              "name": {
+                "value": "butler"
+              }
+            },
+            {
+              "name": {
+                "value": "cedar grove"
+              }
+            },
+            {
+              "name": {
+                "value": "boston college"
+              }
+            },
+            {
+              "name": {
+                "value": "valley road"
+              }
+            },
+            {
+              "name": {
+                "value": "fairbanks street"
+              }
+            },
+            {
+              "name": {
+                "value": "waban"
+              }
+            },
+            {
+              "name": {
+                "value": "kenmore"
+              }
+            },
+            {
+              "name": {
+                "value": "longwood"
+              }
+            },
+            {
+              "name": {
+                "value": "woodland"
+              }
+            },
+            {
+              "name": {
+                "value": "park street"
+              }
+            },
+            {
+              "name": {
+                "value": "hawes street"
+              }
+            },
+            {
+              "name": {
+                "value": "gilman square"
+              }
+            },
+            {
+              "name": {
+                "value": "warren street"
+              }
+            },
+            {
+              "name": {
+                "value": "hynes convention center"
+              }
+            },
+            {
+              "name": {
+                "value": "arlington"
+              }
+            },
+            {
+              "name": {
+                "value": "mission park"
+              }
+            },
+            {
+              "name": {
+                "value": "reservoir"
+              }
+            },
+            {
+              "name": {
+                "value": "washington square"
+              }
+            },
+            {
+              "name": {
+                "value": "chiswick road"
+              }
+            },
+            {
+              "name": {
+                "value": "prudential"
+              }
+            },
+            {
+              "name": {
+                "value": "back of the hill"
+              }
+            },
+            {
+              "name": {
+                "value": "washington square"
+              }
+            },
+            {
+              "name": {
+                "value": "tappan street"
+              }
+            },
+            {
+              "name": {
+                "value": "boston university central"
+              }
+            },
+            {
+              "name": {
+                "value": "hawes street"
+              }
+            },
+            {
+              "name": {
+                "value": "brookline village"
+              }
+            },
+            {
+              "name": {
+                "value": "washington street"
+              }
+            },
+            {
+              "name": {
+                "value": "east somerville"
+              }
+            },
+            {
+              "name": {
+                "value": "medford/tufts"
+              }
+            },
+            {
+              "name": {
+                "value": "eliot"
+              }
+            },
+            {
+              "name": {
+                "value": "government center"
+              }
+            },
+            {
+              "name": {
+                "value": "summit avenue"
+              }
+            },
+            {
+              "name": {
+                "value": "babcock street"
+              }
+            },
+            {
+              "name": {
+                "value": "south street"
+              }
+            },
+            {
+              "name": {
+                "value": "heath street"
+              }
+            },
+            {
+              "name": {
+                "value": "arlington"
+              }
+            },
+            {
+              "name": {
+                "value": "science park/west end"
+              }
+            },
+            {
+              "name": {
+                "value": "amory street"
+              }
+            },
+            {
+              "name": {
+                "value": "beaconsfield"
+              }
+            },
+            {
+              "name": {
+                "value": "eliot"
+              }
+            },
+            {
+              "name": {
+                "value": "mission park"
+              }
+            },
+            {
+              "name": {
+                "value": "chestnut hill avenue"
+              }
+            },
+            {
+              "name": {
+                "value": "prudential"
+              }
+            },
+            {
+              "name": {
+                "value": "boston university east"
+              }
+            },
+            {
+              "name": {
+                "value": "coolidge corner"
+              }
+            },
+            {
+              "name": {
+                "value": "science park/west end"
+              }
+            },
+            {
+              "name": {
+                "value": "babcock street"
+              }
+            },
+            {
+              "name": {
+                "value": "park street"
+              }
+            },
+            {
+              "name": {
+                "value": "park street"
+              }
+            },
+            {
+              "name": {
+                "value": "riverside"
+              }
+            },
+            {
+              "name": {
+                "value": "boston college"
+              }
+            },
+            {
+              "name": {
+                "value": "boylston"
+              }
+            },
+            {
+              "name": {
+                "value": "chiswick road"
+              }
+            },
+            {
+              "name": {
+                "value": "south street"
+              }
+            },
+            {
+              "name": {
+                "value": "reservoir"
+              }
+            },
+            {
+              "name": {
+                "value": "longwood medical area"
+              }
+            },
+            {
+              "name": {
+                "value": "amory street"
+              }
+            },
+            {
+              "name": {
+                "value": "copley"
+              }
+            },
+            {
+              "name": {
+                "value": "allston street"
+              }
+            },
+            {
+              "name": {
+                "value": "englewood avenue"
+              }
+            },
+            {
+              "name": {
+                "value": "north station"
+              }
+            },
+            {
+              "name": {
+                "value": "griggs street"
+              }
+            },
+            {
+              "name": {
+                "value": "blandford street"
+              }
+            },
+            {
+              "name": {
+                "value": "ashmont"
+              }
+            },
+            {
+              "name": {
+                "value": "fenway"
+              }
+            },
+            {
+              "name": {
+                "value": "waban"
+              }
+            },
+            {
+              "name": {
+                "value": "riverway"
+              }
+            },
+            {
+              "name": {
+                "value": "cleveland circle"
+              }
+            },
+            {
+              "name": {
+                "value": "coolidge corner"
+              }
+            },
+            {
+              "name": {
+                "value": "chestnut hill"
+              }
+            },
+            {
+              "name": {
+                "value": "brandon hall"
+              }
+            },
+            {
+              "name": {
+                "value": "allston street"
+              }
+            },
+            {
+              "name": {
+                "value": "sutherland road"
+              }
+            },
+            {
+              "name": {
+                "value": "lechmere"
+              }
+            },
+            {
+              "name": {
+                "value": "brookline hills"
+              }
+            },
+            {
+              "name": {
+                "value": "haymarket"
+              }
+            },
+            {
+              "name": {
+                "value": "packard\u0027s corner"
+              }
+            },
+            {
+              "name": {
+                "value": "longwood"
+              }
+            },
+            {
+              "name": {
+                "value": "cedar grove"
+              }
+            },
+            {
+              "name": {
+                "value": "milton"
+              }
+            },
+            {
+              "name": {
+                "value": "government center"
+              }
+            },
+            {
+              "name": {
+                "value": "saint mary\u0027s street"
+              }
+            },
+            {
+              "name": {
+                "value": "valley road"
+              }
+            },
+            {
+              "name": {
+                "value": "cleveland circle"
+              }
+            },
+            {
+              "name": {
+                "value": "kenmore"
+              }
+            },
+            {
+              "name": {
+                "value": "packard\u0027s corner"
+              }
+            },
+            {
+              "name": {
+                "value": "saint paul street"
+              }
+            },
+            {
+              "name": {
+                "value": "boylston"
+              }
+            },
+            {
+              "name": {
+                "value": "englewood avenue"
+              }
+            },
+            {
+              "name": {
+                "value": "medford/tufts"
+              }
+            },
+            {
+              "name": {
+                "value": "milton"
+              }
+            },
+            {
+              "name": {
+                "value": "newton centre"
+              }
+            },
+            {
+              "name": {
+                "value": "chestnut hill"
+              }
+            },
+            {
+              "name": {
+                "value": "warren street"
+              }
+            },
+            {
+              "name": {
+                "value": "central avenue"
+              }
+            },
+            {
+              "name": {
+                "value": "riverside"
+              }
+            },
+            {
+              "name": {
+                "value": "summit avenue"
+              }
+            },
+            {
+              "name": {
+                "value": "northeastern university"
+              }
+            },
+            {
+              "name": {
+                "value": "boston university east"
+              }
+            },
+            {
+              "name": {
+                "value": "magoun square"
+              }
+            },
+            {
+              "name": {
+                "value": "fairbanks street"
+              }
+            },
+            {
+              "name": {
+                "value": "newton highlands"
+              }
+            },
+            {
+              "name": {
+                "value": "park street"
+              }
+            },
+            {
+              "name": {
+                "value": "ball square"
+              }
+            },
+            {
+              "name": {
+                "value": "kent street"
+              }
+            },
+            {
+              "name": {
+                "value": "capen street"
+              }
+            },
+            {
+              "name": {
+                "value": "gilman square"
+              }
+            },
+            {
+              "name": {
+                "value": "union square"
+              }
+            },
+            {
+              "name": {
+                "value": "magoun square"
+              }
+            },
+            {
+              "name": {
+                "value": "riverway"
+              }
+            },
+            {
+              "name": {
+                "value": "tappan street"
+              }
+            },
+            {
+              "name": {
+                "value": "newton centre"
+              }
+            },
+            {
+              "name": {
+                "value": "back of the hill"
+              }
+            },
+            {
+              "name": {
+                "value": "sutherland road"
+              }
+            },
+            {
+              "name": {
+                "value": "east somerville"
+              }
+            },
+            {
+              "name": {
+                "value": "chestnut hill avenue"
+              }
+            },
+            {
+              "name": {
+                "value": "mattapan"
+              }
+            },
+            {
+              "name": {
+                "value": "saint mary\u0027s street"
+              }
+            },
+            {
+              "name": {
+                "value": "longwood medical area"
+              }
+            },
+            {
+              "name": {
+                "value": "fenwood road"
+              }
+            },
+            {
+              "name": {
+                "value": "mattapan"
+              }
+            },
+            {
+              "name": {
+                "value": "woodland"
+              }
+            },
+            {
+              "name": {
+                "value": "capen street"
+              }
+            },
+            {
+              "name": {
+                "value": "boston university central"
+              }
+            },
+            {
+              "name": {
+                "value": "fenwood road"
+              }
+            },
+            {
+              "name": {
+                "value": "harvard avenue"
+              }
+            },
+            {
+              "name": {
+                "value": "north station"
+              }
+            },
+            {
+              "name": {
+                "value": "lechmere"
+              }
+            },
+            {
+              "name": {
+                "value": "copley"
+              }
+            },
+            {
+              "name": {
+                "value": "blandford street"
+              }
+            },
+            {
+              "name": {
+                "value": "washington street"
+              }
+            },
+            {
+              "name": {
+                "value": "hynes convention center"
+              }
+            },
+            {
+              "name": {
+                "value": "union square"
+              }
+            },
+            {
+              "name": {
+                "value": "butler"
+              }
+            },
+            {
+              "name": {
+                "value": "central avenue"
+              }
+            },
+            {
+              "name": {
+                "value": "saint paul street"
+              }
+            }
+          ],
+          "name": "stationname"
+        }
+      ]
+    }
+  },
+  "version": "28"
+}
