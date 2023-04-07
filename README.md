@@ -2,6 +2,8 @@
 
 Welcome to my MBTA Alexa repository! This is an Alexa skill designed to provide you with real-time train arrival information for the Massachusetts Bay Transportation Authority (MBTA) Green Line. The skill is able to inform you of the earliest train arrival times in either direction, eastbound or westbound.
 
+## Demo:
+Link to blog [here](https://medium.com/@catplotlib/hey-alexa-whens-my-train-the-ultimate-mbta-skill-6c501f03c566)
 
 ## Features
 - Real-time arrival information for MBTA Green Line trains
