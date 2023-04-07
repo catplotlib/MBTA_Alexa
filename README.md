@@ -4,6 +4,7 @@ Welcome to my MBTA Alexa repository! This is an Alexa skill designed to provide 
 
 ## Demo:
 Link to blog [here](https://medium.com/@catplotlib/hey-alexa-whens-my-train-the-ultimate-mbta-skill-6c501f03c566)
+Link to usage [here](https://www.linkedin.com/feed/update/urn:li:activity:7044466614020231168/)
 
 ## Features
 - Real-time arrival information for MBTA Green Line trains
